@@ -328,8 +328,8 @@ public class FlutterBluePlugin implements FlutterPlugin, MethodCallHandler, Requ
                     }
                     mDevices.put(deviceId, new BluetoothDeviceCache(gattServer));
                     result.success(null);
-                });
-                break;
+					break;
+                });               
             }
 
             case "disconnect":
